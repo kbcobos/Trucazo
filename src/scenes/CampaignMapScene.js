@@ -4,16 +4,16 @@ const W = 960;
 const H = 540;
 
 const PROVINCIAS = [
-  { id:'tierra_del_fuego', nombre:'Tierra del Fuego', sub:'', x:320, y:490, jefe:'Mariano Torre', apodo:'El Casi Ángel', desc:'Actor de Casi Ángeles reconvertido en jugador. Principiante con cara de protagonista.', dif:1, aura:80, pts:10, estado:'actual' },
-  { id: 'san_juan', nombre: 'San Juan', sub: '', x: 280, y: 180, jefe: 'Dario Barassi', apodo: 'El Comediante', desc: 'Carismático y rápido de mente. Siempre tiene un chiste listo, incluso en las manos más tensas.', dif: 2, aura: 100, pts: 12, estado: 'locked' },
-  { id:'la_plata', nombre:'La Plata', sub:'', x:434, y:240, jefe:'René Favaloro', apodo:'El Médico', desc:'Conocido por su compromiso con la salud pública.', dif:2, aura:120, pts:12, estado:'locked' },
-  { id:'buenos_aires', nombre:'Buenos Aires', sub:'', x:420, y:220, jefe:'Ricardo Fort', apodo:'El Rey del Chocolate', desc:'Millonario y extravagante. Canta truco con champagne en mano.', dif:3, aura:160, pts:15, estado:'locked' },
-  { id:'tucuman', nombre:'Tucumán', sub:'', x:322, y:130, jefe:'Gladys', apodo:'La Bomba Tucumana', desc:'Reina de la movida tropical. Canta "La pollera amarilla" antes de cada mano.', dif:3, aura:340, pts:25, estado:'locked' },
-  { id:'cordoba', nombre:'Córdoba', sub:'', x:350, y:180, jefe:'Rodrigo Bueno', apodo:'El Potro', desc:'La cumbia en el alma y el truco en la sangre. Impredecible.', dif:4, aura:260, pts:18, estado:'locked' },
-  { id:'mendoza', nombre:'Mendoza', sub:'', x:280, y:240, jefe:'Joaquin Salvador', apodo:'Quino', desc:'Humorista gráfico. Creador de Mafalda.', dif:4, aura:340, pts:20, estado:'locked' },
-  { id:'santa_fe', nombre:'Santa Fe', sub:'', x:390, y:200, jefe:'Lionel Messi', apodo:'La Pulga', desc:'No habla. No farolea. No necesita. Precisión quirúrgica.', dif:5, aura:200, pts:15, estado:'locked' },
-  { id:'salta', nombre:'Salta', sub:'', x:350, y:100, jefe:'El Chaqueño Palavecino', apodo:'El Cantor del Norte', desc:'Ícono del folklore argentino. Canta "La ley y la trampa" para intimidar a sus rivales.', dif:5, aura:500, pts:30, estado:'locked' },
-  { id:'jujuy', nombre:'Jujuy', sub:'', x:320, y:75, jefe:'Alejandra Olivera', apodo:'La Locomotora', desc:'La campeona indiscutida del truco. Nadie sabe cómo juega, pero siempre gana.', dif:5, aura:500, pts:35, estado:'locked' },
+  { id:'tierra_del_fuego', nombre:'Tierra del Fuego', sub:'', x:320, y:490, jefe:'Matías Torres', apodo:'El Casi Ángel', desc:'Actor de Casi Ángeles reconvertido en jugador. Principiante con cara de protagonista.', dif:1, aura:80, pts:10, estado:'actual' },
+  { id: 'san_juan', nombre: 'San Juan', sub: '', x: 280, y: 180, jefe: 'Dario Barrera', apodo: 'El Comediante', desc: 'Carismático y rápido de mente. Siempre tiene un chiste listo, incluso en las manos más tensas.', dif: 2, aura: 100, pts: 12, estado: 'locked' },
+  { id:'la_plata', nombre:'La Plata', sub:'', x:434, y:240, jefe:'Dr. Valentin Ferrer', apodo:'El Médico', desc:'Conocido por su compromiso con la salud pública.', dif:2, aura:120, pts:12, estado:'locked' },
+  { id:'buenos_aires', nombre:'Buenos Aires', sub:'', x:420, y:220, jefe:'Máximo Fortier', apodo:'El Rey del Chocolate', desc:'Millonario y extravagante. Canta truco con champagne en mano.', dif:3, aura:160, pts:15, estado:'locked' },
+  { id:'tucuman', nombre:'Tucumán', sub:'', x:322, y:130, jefe:'Gladys Luna', apodo:'La Bomba del Norte', desc:'Reina de la movida tropical. Canta "La pollera amarilla" antes de cada mano.', dif:3, aura:340, pts:25, estado:'locked' },
+  { id:'cordoba', nombre:'Córdoba', sub:'', x:350, y:180, jefe:'Rolo Bueno', apodo:'El Potro', desc:'La cumbia en el alma y el truco en la sangre. Impredecible.', dif:4, aura:260, pts:18, estado:'locked' },
+  { id:'mendoza', nombre:'Mendoza', sub:'', x:280, y:240, jefe:'Joaquin Salvatierra', apodo:'El Dibujante', desc:'Humorista gráfico. Creador de Mafalda.', dif:4, aura:340, pts:20, estado:'locked' },
+  { id:'santa_fe', nombre:'Santa Fe', sub:'', x:390, y:200, jefe:'Leo Montiel', apodo:'La Pulga', desc:'No habla. No farolea. No necesita. Precisión quirúrgica.', dif:5, aura:200, pts:15, estado:'locked' },
+  { id:'salta', nombre:'Salta', sub:'', x:350, y:100, jefe:'Elias Palavecino', apodo:'El Cantor del Norte', desc:'Ícono del folklore argentino. Canta "La ley y la trampa" para intimidar a sus rivales.', dif:5, aura:500, pts:30, estado:'locked' },
+  { id:'jujuy', nombre:'Jujuy', sub:'', x:320, y:75, jefe:'Alejandra Roldán', apodo:'La Locomotora', desc:'La campeona indiscutida del truco. Nadie sabe cómo juega, pero siempre gana.', dif:5, aura:500, pts:35, estado:'locked' },
 ];
 
 const ORDEN = ['tierra_del_fuego','la_plata','buenos_aires','santa_fe','cordoba','mendoza', 'san_juan','tucuman','salta','jujuy'];

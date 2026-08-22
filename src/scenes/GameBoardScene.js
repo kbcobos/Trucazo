@@ -64,16 +64,16 @@ export class GameBoardScene extends Phaser.Scene {
     this.load.image('icono_gaucho_dorado', 'assets/ui/banners/icono_gaucho_dorado.png');
     this.load.image('icono_gaucho_rojo', 'assets/ui/banners/icono_gaucho_rojo.png');
     this.load.image('icono_gaucho_negro', 'assets/ui/banners/icono_gaucho_negro.png');
-    this.load.image('jefe_tierra_del_fuego',  'assets/ui/jefes/Mariano_Torre.png');
-    this.load.image('jefe_la_plata',          'assets/ui/jefes/Rene_Favaloro.png');
-    this.load.image('jefe_buenos_aires',      'assets/ui/jefes/Ricardo_Fort.png');
-    this.load.image('jefe_san_juan',          'assets/ui/jefes/Dario_Barassi.png');
-    this.load.image('jefe_santa_fe',          'assets/ui/jefes/Lionel_Messi.png');
-    this.load.image('jefe_cordoba',           'assets/ui/jefes/Rodrigo_Bueno.png');
-    this.load.image('jefe_mendoza',           'assets/ui/jefes/Quino.png');
-    this.load.image('jefe_tucuman',           'assets/ui/jefes/Gladys.png');
-    this.load.image('jefe_salta',             'assets/ui/jefes/Chaqueño_Palavecino.png');
-    this.load.image('jefe_jujuy',             'assets/ui/jefes/Locomotora.png');
+    this.load.image('jefe_tierra_del_fuego',  'assets/ui/jefes/El_Casi_Angel.png');
+    this.load.image('jefe_la_plata',          'assets/ui/jefes/El_Medico.png');
+    this.load.image('jefe_buenos_aires',      'assets/ui/jefes/El_Rey_del_Chocolate.png');
+    this.load.image('jefe_san_juan',          'assets/ui/jefes/El_Comediante.png');
+    this.load.image('jefe_santa_fe',          'assets/ui/jefes/La_Pulga.png');
+    this.load.image('jefe_cordoba',           'assets/ui/jefes/El_Potro_Cordobes.png');
+    this.load.image('jefe_mendoza',           'assets/ui/jefes/El_Dibujante.png');
+    this.load.image('jefe_tucuman',           'assets/ui/jefes/La_Bomba_del_Norte.png');
+    this.load.image('jefe_salta',             'assets/ui/jefes/El_Cantor_del_Norte.png');
+    this.load.image('jefe_jujuy',             'assets/ui/jefes/La_Locomotora.png');
     this.load.image('mazo_boca_abajo', 'assets/ui/mazo_boca_abajo.png');
     this.load.image('icono_aura', 'assets/ui/icono_aura.png');
   }

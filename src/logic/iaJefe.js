@@ -2,7 +2,7 @@ import { LlamadaTruco, LlamadaEnvido, Respuesta } from './core/Enums.js';
 
 const PERFILES = {
   tierra_del_fuego: {
-    nombre:           'Mariano Torre',
+    nombre:           'Matías Torres',
     apodo:            'El Casi Ángel',
     probCantoTruco:   0.30,
     probCantoEnvido:  0.40,
@@ -19,7 +19,7 @@ const PERFILES = {
     fraseDerrota:     'Esto no estaba en el guión... seguimos.',
   },
   la_plata: {
-    nombre:           'René Favaloro',
+    nombre:           'Dr. Valentín Ferrer',
     apodo:            'El Médico',
     probCantoTruco:   0.40,
     probCantoEnvido:  0.45,
@@ -36,7 +36,7 @@ const PERFILES = {
     fraseDerrota:     'Hice todo lo humanamente posible. Bien jugado, muchacho.',
   },
   buenos_aires: {
-    nombre:           'Ricardo Fort',
+    nombre:           'Máximo Fortier',
     apodo:            'El Rey del Chocolate',
     probCantoTruco:   0.70,
     probCantoEnvido:  0.60,
@@ -53,7 +53,7 @@ const PERFILES = {
     fraseDerrota:     'Esto jamás habría pasado en mi yate.',
   },
   santa_fe: {
-    nombre:           'Lionel Messi',
+    nombre:           'Leo Montiel',
     apodo:            'La Pulga',
     probCantoTruco:   0.45,
     probCantoEnvido:  0.50,
@@ -70,7 +70,7 @@ const PERFILES = {
     fraseDerrota:     'Bien jugado.',
   },
   cordoba: {
-    nombre:           'Rodrigo Bueno',
+    nombre:           'Rolo Bueno',
     apodo:            'El Potro',
     probCantoTruco:   0.65,
     probCantoEnvido:  0.65,
@@ -87,7 +87,7 @@ const PERFILES = {
     fraseDerrota:     '¡No importa! ¡Esta noche igual festejamos!',
   },
   mendoza: {
-    nombre:           'Joaquín Salvador',
+    nombre:           'Joaquín Salvatierra',
     apodo:            'Quino',
     probCantoTruco:   0.35,
     probCantoEnvido:  0.40,
@@ -104,7 +104,7 @@ const PERFILES = {
     fraseDerrota:     'Pucha... como diría Manolito: ¡Los negocios salieron mal!',
   },
   san_juan: {
-    nombre:           'Dario Barassi',
+    nombre:           'Darío Barrera',
     apodo:            'El Comediante',
     probCantoTruco:   0.75,
     probCantoEnvido:  0.70,
@@ -121,7 +121,7 @@ const PERFILES = {
     fraseDerrota:     '¡Ay, me cortaste la música! La próxima te hago reír más.',
   },
   tucuman: {
-    nombre:           'Gladys',
+    nombre:           'Gladys Luna',
     apodo:            'La Bomba Tucumana',
     probCantoTruco:   0.75,
     probCantoEnvido:  0.70,
@@ -138,7 +138,7 @@ const PERFILES = {
     fraseDerrota:     '¡Ay, me cortaste la música! La próxima te bailo.',
   },
   salta: {
-    nombre:           'El Chaqueño Palavecino',
+    nombre:           'Elías Palavecino',
     apodo:            'El Cantor del Norte',
     probCantoTruco:   0.75,
     probCantoEnvido:  0.80,
@@ -155,7 +155,7 @@ const PERFILES = {
     fraseDerrota:     'Hoy ganaste vos... pero el norte siempre vuelve.',
   },
   jujuy: {
-    nombre:           'Alejandra Olivera',
+    nombre:           'Alejandra Roldán',
     apodo:            'La Locomotora',
     probCantoTruco:   0.90, 
     probCantoEnvido:  0.85,
