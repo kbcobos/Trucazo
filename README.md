@@ -21,5 +21,5 @@ Juego de cartas argentino que fusiona el Truco tradicional con mecánicas *rogue
 **Desarrollado por LOS QUE FACTURAN · 2026**
 
 *   **Katherine Cobos:** Lead Game Developer · Game Designer · UI/UX Design · Technical Implementation · AI Asset Integration.
-*   **Colaboradores (Game Ideation, Gameplay Feedback & Testing):** Nicolas Montenegro, Maximo Sarmiento, Dylan Sun.
+*   **Colaboradores (Game Ideation, Gameplay Feedback & Testing):** Maximo Sarmiento, Dylan Sun.
 *   **Agradecimientos Especiales:** Profesora Ares Mara (Introducción al Diseño de Videojuegos).

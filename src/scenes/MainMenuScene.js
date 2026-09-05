@@ -209,8 +209,8 @@ Katherine Cobos
 (Lead Game Developer · Game Designer · UI/UX Design · Technical Implementation · AI Asset Integration)
 
 COLABORACIÓN
-[Nicolas Montenegro · Maximo Sarmiento · Dylan Sun]
-(Game Ideation · Gameplay Feedback · Testing)
+[Maximo Sarmiento · Dylan Sun]
+(Gameplay Feedback · Testing)
 
 HERRAMIENTAS UTILIZADAS
 React · Vercel · GitHub · IA Generativa para Assets Visuales
